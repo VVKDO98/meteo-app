@@ -351,22 +351,25 @@ body {
   margin: auto;
   background-color: rgba(255, 255, 255, 0.05);
   border-radius: 20px;
+}
+.main .main__top {
+  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
-.main h1 {
+.main .main__top h1 {
   margin: 20px auto 10px 20px;
 }
-.main .main__temp {
+.main .main__top .main__temp {
   margin-left: 50px;
 }
-.main .main__info {
+.main .main__top .main__info {
   margin-left: 20px;
   margin-bottom: 20px;
 }
 @media screen and (max-width: 480px) {
-  .main {
+  .main .main__top {
     height: 100vh;
     border-radius: 0px;
   }
