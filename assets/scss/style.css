@@ -364,4 +364,10 @@ body {
 .main .main__info {
   margin-left: 20px;
   margin-bottom: 20px;
+}
+@media screen and (max-width: 480px) {
+  .main {
+    height: 100vh;
+    border-radius: 0px;
+  }
 }/*# sourceMappingURL=style.css.map */

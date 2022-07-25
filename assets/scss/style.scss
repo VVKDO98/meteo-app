@@ -1,6 +1,7 @@
 @import 
     'normalize',
-    'fonts';
+    'fonts',
+    'mixin';
 
 html{
     font-family: 'Poppins', sans-serif;
@@ -35,5 +36,10 @@ body{
     .main__info{
         margin-left: 20px;
         margin-bottom: 20px;
+    }
+
+    @include media-screen-mobile{
+        height: 100vh;
+        border-radius: 0px;
     }
 }
