@@ -1,0 +1,30 @@
+.main{
+    width: 480px;
+    height: 800px;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 20px;
+    .main__top{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        h1{
+            margin: 20px auto 10px 20px;
+        }
+        .main__temp{
+            margin-left: 50px;
+        }
+    
+        .main__info{
+            margin-left: 20px;
+            margin-bottom: 20px;
+        }
+    
+        @include media-screen-mobile{
+            height: 100vh;
+            border-radius: 0px;
+        }
+    } 
+}

@@ -22,9 +22,11 @@ window.addEventListener("load", () => {
                 const {humidity} = data.main;
                 const {speed} = data.wind;
                 currentLocation.textContent = name;
-                currentWeather.textContent = Math.round(temp - 273);
+                currentWeather.textContent = Math.round(temp - 273) + "°";
                 currentHumidity.innerHTML = "Humidity : " + humidity + "%";
                 currentWind.textContent = "Wind : " + speed + " km/h";
+
+                console.log(data)
             })
         })
     }
