@@ -317,13 +317,17 @@ h1 {
   font-weight: 400;
 }
 
-h2 {
+#main__location {
   font-size: 32px;
   font-weight: 600;
   letter-spacing: 1px;
 }
 
-span {
+#main__weather {
+  font-size: 160px;
+}
+
+#main__unit {
   font-size: 160px;
 }
 
